@@ -1,0 +1,68 @@
+# In minutes
+cooldown: 60
+
+shop:
+  title: "&aShop GUI"
+  item1:
+    price: 1
+    # Materials can be found here: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    material: GOLD_INGOT
+    data: 0
+    name: "&6One Point Reward"
+    lore:
+      - "&f"
+      - "&6Reward: &eOne Point Reward"
+      - "&6Price: &e%price%"
+    command: "say %player% claimed a point"
+  item2:
+    price: 1
+    # Materials can be found here: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    material: GOLD_INGOT
+    data: 0
+    name: "&6One Point Reward"
+    lore:
+      - "&f"
+      - "&6Reward: &eOne Point Reward"
+      - "&6Price: &e%price%"
+    command: "say %player% claimed a point"
+  item3:
+    price: 1
+    # Materials can be found here: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    material: GOLD_INGOT
+    data: 0
+    name: "&6One Point Reward"
+    lore:
+      - "&f"
+      - "&6Reward: &eOne Point Reward"
+      - "&6Price: &e%price%"
+    command: "say %player% claimed a point"
+  item4:
+    price: 1
+    # Materials can be found here: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    material: GOLD_INGOT
+    data: 0
+    name: "&6One Point Reward"
+    lore:
+      - "&f"
+      - "&6Reward: &eOne Point Reward"
+      - "&6Price: &e%price%"
+    command: "say %player% claimed a point"
+  item5:
+    price: 1
+    # Materials can be found here: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    material: GOLD_INGOT
+    data: 0
+    name: "&6One Point Reward"
+    lore:
+      - "&f"
+      - "&6Reward: &eOne Point Reward"
+      - "&6Price: &e%price%"
+    command: "say %player% claimed a point"
+
+messages:
+  player_time: "&aYou've been playing for %time%."
+  cooldown_message: "&cYou have %time% of remaining cooldown"
+  point_claimed: "&aYou've claimed a point!"
+  points: "&aYou have %points% points"
+  not_enough_points: "&cYou don't have enough points"
+  item_bought: "&a%player% item bought. You now have %points%."

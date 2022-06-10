@@ -1,0 +1,14 @@
+name: SkyGuardiansPlayerTimer
+version: ${project.version}
+main: com.dolphln.skyguardiansplayertimer.SkyGuardiansPlayerTimer
+api-version: 1.16
+authors: [ Dolphln ]
+description: SkyGuardiansPlayerTimer
+website: dolphln.com
+
+commands:
+  playtime:
+    aliases:
+      - pt
+      - playertime
+      - playtimer
